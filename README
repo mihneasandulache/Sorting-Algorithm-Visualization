@@ -1,0 +1,20 @@
+Sorting Algorithm visualizer
+Time for implementation - 12 hours
+-------------------------------------------------------------------------------
+    I have implemented a sorting algorithm visualization with GUI using the 
+raylib.h library and OOP concepts, thus creating an educative application,
+mainly inspired by Nikola Kostadinov.
+    The project only implements the Bubble Sort method, but is open to more
+algorithms as it uses many functions and boolean variabiles in order to 
+achieve its goal.
+    The starting menu offers four options: changing the speed and size of
+array, randomizing the array and starting the actual visualization.Once
+started,each selected element of the pair will be coloured gray and, once it is
+sorted, its color will be green.This was implemented with the pair type which
+gives the possiblity to store both the value and the state of each element of
+the array.
+    Once the sorting is finished, a new visulization can be started, the user
+being given the same four options.
+    The raylib.h library facilitated the graphic interface of the application,
+as it provides in-built functions for customizing the aspect of the project and
+automizing the processes of pressing buttons.
